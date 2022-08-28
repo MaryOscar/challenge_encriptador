@@ -1,0 +1,158 @@
+body{
+    background-color: #E5E5E5;
+}
+
+.headerTitle{
+    margin-left: 5%;
+    font-size: 30px;
+    color: blue;
+}
+
+main{
+    display: flex;
+}
+
+#textareaIzquierda{
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 15%;
+    background-color: #E5E5E5;
+    font-size: 25px;
+    color: #123456;
+    border: 1px;
+    outline: 0 none;
+}
+
+.pMensajeAlerta{
+    margin-left: 15%;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+.btnEncriptar{
+    border: 1px solid #2e518b;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    background-color: #2e518b;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 15%;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btnEncriptar:hover{
+    color: #111156;
+    background-color: #ffffff;
+}
+
+.btnEncriptar:active{
+    background-color: #b1b5ba;
+}
+
+.btnDesencriptar{
+    border: 1px solid #392c86;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    background-color: #b4c8da;
+    color: #392c86;
+    font-size: 15px;
+    margin-left: 15%;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.btnDesencriptar:hover{
+    color: #111156;
+    background-color: #b1b5ba;
+}
+
+.btnDesencriptar:active{
+    background-color: #ffffff;
+}
+
+#textareaDerecha{
+    text-align: center;
+    padding: 30px;
+    margin-left: 15%;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    font-size: 25px;
+    color: #123456;
+    border: 1px;
+    border-radius: 30px;
+    outline: 0 none;
+    position: relative;
+}
+
+.BtnCopiar{
+    display: none;
+    border: 1px solid #392c86;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    background-color: #b4c8da;
+    color: #392c86;
+    font-size: 15px;
+    margin-left: 35%;
+    font-weight: bold;
+    border-radius: 30px;
+    position: relative;
+}
+
+.BtnCopiar:hover{
+    color: #111156;
+    background-color: #b1b5ba;
+}
+
+.BtnCopiar:active{
+    background-color: #ffffff;
+}
+
+.divGlobal{
+    position: relative;
+}
+.divTextarea{
+    position: relative;
+}
+.divParrafo1{
+    position: relative;
+    width: 35%;
+    left: 90px;
+    bottom: 170px;
+    margin-left: 15%;
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+.divParrafo2{
+    position: relative;
+    width: 35%;
+    left: 90px;
+    bottom: 160px;
+    margin-left: 15%;
+    font-size: 15px;
+    color: blue;
+    text-align: center;
+}
+.divButton{
+    position: relative;
+    bottom: 80px;
+}
+
+.primerasesion{ 
+    width: 50%;
+}
+
+.segundasesion{
+    width: 50%;
+}
